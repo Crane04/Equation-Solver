@@ -7,57 +7,59 @@
 </head>
 <body>
     <h3>Linear Equations</h3>
- <div id="l-eqn">
-  <input type="number" id="l1"> x +
-  <input type="number" id="n1"> =
-  <input type="number" id="r1"><br><br>
-  <button onclick="ans1()">Answer</button>
-  <button onclick="show1()">Show solution</button>
-  <p id="soln1"></p>
-  <hr>
- </div>
- <h3>Simultaneous Equation</h3>
- <div id="s-eqn">
-     <div id="simul-options">
-      <a onclick="simul2()">2 Unknowns</a>|
-      <a onclick="simul3()">3 Unknowns</a>|
-      <a>4 Unknowns</a> 
-     </div><br>
-<div id="simul-ans">
-    <br>
-     Choose an Equation 👍
-    
-</div>
-<hr>
-<h3>Polynomials</h3>
- <div id="p-eqn">
-     <div id="simul-options">
-      <a onclick="quadr()">Quadratics</a>|
-      <a>Cubic</a>|
-      <a>Quartics</a> 
-     </div><br>
-<div id="poly-ans">
-    <br>
-    
-     Choose an Equation 👍
-     <br>
-     </div>
-   <hr>  
-   <h3>Lambert Function Solutions</h3>
- <div id="l-eqn">
-     <div id="simul-options">
-   <a onclick="fLam()">x<sup>nx</sup> = c</a>|
-    <a onclick="sLam()">lnx = nx + c</a>|
-    <a onclick="tLam()">a<sup>nx</sup> = bx + c  </a> <br>
-      <a onclick="foLam()">xe<sup>x</sup> = c</a>|
-      <a>x + e<sup>x</sup> = c</a>
-     </div><br>
-     
-<div id="lam-ans">
-    <br>
-    
-     Choose an Equation 👍
-     <br>
+    <div id="l-eqn">
+     <input type="number" id="l1"> x +
+     <input type="number" id="n1"> =
+     <input type="number" id="r1"><br><br>
+     <button onclick="ans1()">Answer</button>
+     <button onclick="show1()">Show solution</button>
+     <p id="soln1"></p>
+     <hr>
+    </div>
+    <h3>Simultaneous Equation</h3>
+    <div id="s-eqn">
+        <div id="simul-options">
+         <a class="anchor" onclick="simul2()">2 Unknowns</a>|
+         <a class="anchor" onclick="simul3()">3 Unknowns</a>|
+         <a class="anchor">4 Unknowns</a> 
+        </div><br>
+   <div id="simul-ans">
+       <br>
+        Choose an Equation 👍
+       
+   </div>
+   <hr>
+   <h3>Polynomials</h3>
+    <div id="p-eqn">
+        <div id="simul-options">
+         <a class="anchor" onclick="quadr()">Quadratics</a>|
+         <a onclick="cubic()" class="anchor">Cubic</a>|
+         <a onclick="quartics()" class="anchor">Quartics</a> 
+        </div><br>
+   <div id="poly-ans">
+       <br>
+    <a href="mayowayusuf3004@gmail.com">yes</a>   
+        Choose an Equation 👍
+        <br>
+        </div>
+      <hr>  
+      <h3>Lambert Function Solutions</h3>
+    <div id="l-eqn">
+        <div id="simul-options">
+            <a class="anchor" onclick="frLam()">xe<sup>x</sup>=c</a>|
+            <a class="anchor" onclick="fLam()">ax<sup>nx</sup> = c</a>|<br>
+            <a class="anchor" onclick="sLam()">aLnx = nx + c</a>|
+            <a class="anchor" onclick="tLam()">na<sup>x</sup> = bx + c  </a> <br>
+            <a class="anchor" onclick="foLam()">ax<sup>p</sup>e<sup>nx</sup> = c</a>|
+            <a class="anchor" onclick="fiLam()">ax + pe<sup>nx</sup> = c</a>
+        </div><br>
+   <div id="lam-ans">    
+       <br>
+       
+        Choose an Equation 👍<br><br>
+        Compute your answer with Wolfram Alpha
+   
+      <br>  <br>
    
 </div>     
 <hr>
